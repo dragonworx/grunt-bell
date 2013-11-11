@@ -1,0 +1,33 @@
+{
+  "name": "grunt-bell",
+  "description": "Plays an ascii bell",
+  "version": "0.1.1",
+  "homepage": "https://github.com/dragonworx/grunt-bell",
+  "author": {
+    "name": "Ali Chamas",
+    "email": "musicartscience@gmail.com",
+    "url": "www.musicartscience.com.au"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dragonworx/grunt-bell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dragonworx/grunt-bell/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dragonworx/grunt-bell/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
