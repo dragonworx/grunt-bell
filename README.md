@@ -22,11 +22,14 @@ grunt.loadNpmTasks('grunt-bell');
 ### Overview
 In your project's Gruntfile, use the `bell` task during your custom tasks defined with `grunt.registerTask()` or `grunt.registerMultiTask()`.
 
+Useful for adding to the end of a task queue, so that you know when they've completed without having to monitor the terminal/console.
+
 ```js
 // sound the bell when these tasks complete
 grunt.registerTask('default', ['sometask', 'anothertask', 'bell']);
 ```
 
 ## Release History
-0.1.0 - 11/11/2013 Initial commit
+0.1.2 - 12/11/2013 added seconds time info to output
 0.1.1 - 11/11/2013 Updated readme
+0.1.0 - 11/11/2013 Initial commit

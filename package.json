@@ -1,7 +1,7 @@
 {
   "name": "grunt-bell",
-  "description": "Plays an ascii bell",
-  "version": "0.1.1",
+  "description": "Plays an ascii bell and shows seconds taken by tasks",
+  "version": "0.1.2",
   "homepage": "https://github.com/dragonworx/grunt-bell",
   "author": {
     "name": "Ali Chamas",
